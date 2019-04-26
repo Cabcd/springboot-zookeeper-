@@ -1,0 +1,50 @@
+server:
+  port: 8101
+#应用名称
+spring:
+  dubbo: 
+    application:
+#注册在注册中心的名称，唯一标识，请勿重复
+      id: auth-master
+      name: auth-master
+#注册中心地址，zookeeper集群，启动输出可以看见链接了多个
+#单zookeeper服务：zookeeper://127.0.0.1:2181
+    registry: 
+      address: zookeeper://127.0.0.1:2181
+#暴露服务方式
+    protocol:
+      id: dubbo
+#默认名称，勿修改
+      name: dubbo
+#暴露服务端口 （默认是20880，修改端口，不同的服务提供者端口不能重复） 
+      port: 20880
+      status : server
+#调用dubbo组建扫描的项目路径
+    scan: com.spring.server.service.impl
+
+  datasource:
+      generate-unique-name: false
+      url: jdbc:mysql://127.0.0.1:3306/dmm?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
+      username: root
+      password: 123456
+      driver-class-name: com.mysql.jdbc.Driver
+      initialSize: 1
+      minIdle: 1
+      maxActive: 20
+      maxWait: 60000
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 300000
+      poolPreparedStatements: true
+      maxPoolPreparedStatementPerConnectionSize: 20
+      validationQuery: SELECT 1
+
+
+
+  #公共配置与profiles选择无关 mapperLocations指的路径是src/main/resources
+mybatis:
+  typeAliasesPackage: com.core.po
+  mapperLocations: classpath:mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #显示查询结果
+
+

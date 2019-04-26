@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.server.dao.mapper.DmmTransactionMapper" >
+  <resultMap id="BaseResultMap" type="com.spring.server.po.DmmTransaction" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="user_id" property="userId" jdbcType="INTEGER" />
+    <result column="consume_amount" property="consumeAmount" jdbcType="DECIMAL" />
+    <result column="consume_integral" property="consumeIntegral" jdbcType="BIGINT" />
+    <result column="rate" property="rate" jdbcType="DECIMAL" />
+    <result column="remark" property="remark" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+
+  <sql id="Base_Column_List" >
+    id, user_id, consume_amount, consume_integral, rate, remark, create_time
+  </sql>
+
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from dmm_transaction
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from dmm_transaction
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+
+  <insert id="insert" parameterType="com.spring.server.po.DmmTransaction" useGeneratedKeys="true" keyProperty="id" >
+    insert into dmm_transaction (id, user_id, consume_amount, 
+      consume_integral, rate, remark, 
+      create_time)
+    values (#{id,jdbcType=INTEGER}, #{userId,jdbcType=INTEGER}, #{consumeAmount,jdbcType=DECIMAL}, 
+      #{consumeIntegral,jdbcType=BIGINT}, #{rate,jdbcType=DECIMAL}, #{remark,jdbcType=VARCHAR}, 
+      #{createTime,jdbcType=TIMESTAMP})
+  </insert>
+
+  <update id="updateByPrimaryKey" parameterType="com.spring.server.po.DmmTransaction" >
+    update dmm_transaction
+    set user_id = #{userId,jdbcType=INTEGER},
+      consume_amount = #{consumeAmount,jdbcType=DECIMAL},
+      consume_integral = #{consumeIntegral,jdbcType=BIGINT},
+      rate = #{rate,jdbcType=DECIMAL},
+      remark = #{remark,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+
+
+  <select id="pageTransactionInfo" parameterType="com.spring.server.po.DmmTransaction" resultMap="BaseResultMap">
+    select * from dmm_transaction
+    <trim prefix="where" prefixOverrides="and | or">
+      <if test="userId!=null and userId!='' ">
+        and user_id=#{userId}
+      </if>
+    </trim>
+  </select>
+
+
+</mapper>

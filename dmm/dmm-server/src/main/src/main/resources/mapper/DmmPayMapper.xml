@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spring.server.dao.mapper.DmmPayMapper" >
+  <resultMap id="BaseResultMap" type="com.spring.server.po.DmmPay" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="user_id" property="userId" jdbcType="INTEGER" />
+    <result column="pay_integral" property="payIntegral" jdbcType="BIGINT" />
+    <result column="pay_amount" property="payAmount" jdbcType="DECIMAL" />
+    <result column="pay_type" property="payType" jdbcType="INTEGER" />
+    <result column="remark" property="remark" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+
+  <sql id="Base_Column_List" >
+    id, user_id, pay_integral, pay_amount, pay_type, remark, create_time
+  </sql>
+
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from dmm_pay
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from dmm_pay
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+
+  <insert id="insert" parameterType="com.spring.server.po.DmmPay" useGeneratedKeys="true" keyProperty="id" >
+    insert into dmm_pay (id, user_id, pay_integral, 
+      pay_amount, pay_type, remark, 
+      create_time)
+    values (#{id,jdbcType=INTEGER}, #{userId,jdbcType=INTEGER}, #{payIntegral,jdbcType=BIGINT}, 
+      #{payAmount,jdbcType=DECIMAL}, #{payType,jdbcType=INTEGER}, #{remark,jdbcType=VARCHAR}, 
+      #{createTime,jdbcType=TIMESTAMP})
+  </insert>
+
+  <update id="updateByPrimaryKey" parameterType="com.spring.server.po.DmmPay" >
+    update dmm_pay
+    set user_id = #{userId,jdbcType=INTEGER},
+      pay_integral = #{payIntegral,jdbcType=BIGINT},
+      pay_amount = #{payAmount,jdbcType=DECIMAL},
+      pay_type = #{payType,jdbcType=INTEGER},
+      remark = #{remark,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+
+
+  <select id="pagePayInfo" parameterType="com.spring.server.po.DmmPay" resultMap="BaseResultMap">
+    select * from dmm_pay
+    <trim prefix="where" prefixOverrides="and | or">
+      <if test="userId!=null and userId!='' ">
+        and user_id=#{userId}
+      </if>
+    </trim>
+  </select>
+
+
+</mapper>
