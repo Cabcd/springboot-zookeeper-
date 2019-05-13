@@ -6,12 +6,16 @@
     <ignored path="$PROJECT_DIR$/dmm-client/target/" />
     <ignored path="$PROJECT_DIR$/dmm-core/target/" />
     <ignored path="$PROJECT_DIR$/dmm-server/target/" />
+    <ignored path="$PROJECT_DIR$/dmm-shiro/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -26,64 +30,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dmm-server/src/main/java/com/spring/server/service/impl/UserServiceImpl.java">
+      <file leaf-file-name="MyExceptionHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/config/MyExceptionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DmmUserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dmm-server/src/main/resources/mapper/DmmUserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="5" column="63" lean-forward="false" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-              <folding>
-                <marker date="1556266871994" expanded="true" signature="1044:1148" ph="select from dmm_user" />
-                <marker date="1556266871994" expanded="true" signature="1235:1293" ph="delete from " />
-                <marker date="1556266871994" expanded="true" signature="1413:1736" ph="insert into dmm_user... " />
-                <marker date="1556266871994" expanded="true" signature="1826:2193" ph="update dmm_u... " />
-                <marker date="1556266871994" expanded="true" signature="2302:2324" ph="select * fro... dmm_user" />
-                <marker date="1556266871994" expanded="true" signature="2408:2459" ph="update dmm_u... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dmm-server/src/main/java/com/spring/server/ServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#785#786#0" expanded="true" />
-                <element signature="e#844#845#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dmm-client/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServerApplicationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dmm-server/src/test/java/com/spring/server/ServerApplicationTests.java">
+      <file leaf-file-name="MySessionManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/config/MySessionManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShiroConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/config/ShiroConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1853">
+              <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShiroController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/controller/ShiroController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1977#1993#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/po/UserInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="21" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyShiroRealm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/config/MyShiroRealm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,51 +95,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientApplicationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dmm-client/src/test/java/com/spring/client/ClientApplicationTests.java">
+      <file leaf-file-name="AuthenticatingRealm.class" pinned="false" current-in-tab="true">
+        <entry file="jar://E:/maven/m2/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/realm/AuthenticatingRealm.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="15" />
+            <state relative-caret-position="217">
+              <caret line="195" column="0" lean-forward="false" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dmm-server/src/main/resources/application.yml">
+      <file leaf-file-name="SysPermissionServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/service/impl/SysPermissionServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+            <state relative-caret-position="289">
+              <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShiroDataSourceConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/config/ShiroDataSourceConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dmm-core/pom.xml">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dmm-client/src/main/java/com/spring/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dmm-server/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="57" column="21" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="57" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="811">
-              <caret line="160" column="22" lean-forward="false" selection-start-line="160" selection-start-column="22" selection-end-line="160" selection-end-column="22" />
+            <state relative-caret-position="133">
+              <caret line="38" column="27" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -147,16 +143,42 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dependencies</find>
-      <find>insert</find>
-      <find>com.spring.server.po</find>
-      <find>page</find>
-      <find>my</find>
+      <find>intercept</find>
+      <find>DataSourcePoolMetadataProvider</find>
+      <find>SysRoleService</find>
+      <find>client</find>
+      <find>securityManager</find>
+      <find>SecurityManager</find>
+      <find>Sy</find>
+      <find>doGetAuthorizationInfo</find>
+      <find>doGetAuthenticationInfo</find>
+      <find>ShiroFilterFactoryBean</find>
+      <find>filterChainDefinitionMap</find>
+      <find>rememberMeCookie</find>
+      <find>setRememberMeManager</find>
+      <find>AuthorizationInfo</find>
+      <find>ConfigurationProperties</find>
+      <find>dataSource</find>
+      <find>druid</find>
+      <find>datasource1</find>
+      <find>redisManager</find>
+      <find>sessionFactoryShiro</find>
+      <find>sysUserMapper</find>
+      <find>SysUserService</find>
+      <find>globalConfigShrio</find>
+      <find>prefix</find>
+      <find>shiroDataSource</find>
+      <find>ShiroDataSourceConfig</find>
+      <find>mybatis</find>
+      <find>global-config-shrio</find>
+      <find>SysPermission</find>
+      <find>SysPermissionMapper</find>
     </findStrings>
     <replaceStrings>
       <replace>com.core.po</replace>
@@ -170,30 +192,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.classpath" />
-        <option value="$PROJECT_DIR$/dmm-server/src/main/java/com/spring/server/dao/mapper/DmmAccountMapper.java" />
-        <option value="$PROJECT_DIR$/dmm-server/src/main/java/com/spring/server/dao/mapper/DmmPayMapper.java" />
-        <option value="$PROJECT_DIR$/dmm-server/src/main/java/com/spring/server/dao/mapper/DmmTransactionMapper.java" />
-        <option value="$PROJECT_DIR$/dmm-client/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/dmm-core/src/main/java/com/core/po/User.java" />
-        <option value="$PROJECT_DIR$/dmm-core/src/main/java/com/core/util/JsonResp.java" />
-        <option value="$PROJECT_DIR$/dmm-server/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/dmm-core/src/main/java/com/core/service/UserService.java" />
-        <option value="$PROJECT_DIR$/dmm-client/src/main/java/com/spring/client/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/dmm-shiro/src/main/java/com/shiro/service/impl/SysRoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/dmm-client/src/main/java/com/spring/client/ClientApplication.java" />
-        <option value="$PROJECT_DIR$/dmm-server/src/main/java/com/spring/server/dao/mapper/DmmUserMapper.java" />
-        <option value="$PROJECT_DIR$/dmm-core/src/main/java/com/core/po/DmmUser.java" />
-        <option value="$PROJECT_DIR$/dmm-server/src/main/resources/mapper/DmmTransactionMapper.xml" />
-        <option value="$PROJECT_DIR$/dmm-server/src/main/resources/mapper/DmmPayMapper.xml" />
-        <option value="$PROJECT_DIR$/dmm-server/src/main/resources/mapper/DmmUserMapper.xml" />
-        <option value="$PROJECT_DIR$/dmm-server/src/main/resources/mapper/DmmAccountMapper.xml" />
-        <option value="$PROJECT_DIR$/dmm-server/src/main/java/com/spring/server/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/dmm-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/dmm-client/src/main/java/com/client/ClientApplication.java" />
+        <option value="$PROJECT_DIR$/dmm-shiro/src/main/java/com/shiro/config/MyShiroRealm.java" />
+        <option value="$PROJECT_DIR$/dmm-shiro/src/main/java/com/shiro/config/ShiroDataSourceConfig.java" />
+        <option value="$PROJECT_DIR$/dmm-shiro/src/main/java/com/sc/controller/SysUserController.java" />
+        <option value="$PROJECT_DIR$/dmm-client/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/dmm-core/src/main/java/com/core/service/shiro/SysUserService.java" />
+        <option value="$PROJECT_DIR$/dmm-server/src/main/java/com/spring/mapper/shiro/SysPermissionMapper.java" />
+        <option value="$PROJECT_DIR$/dmm-core/src/main/java/com/shiro/po/SysPermission.java" />
+        <option value="$PROJECT_DIR$/dmm-server/src/main/java/com/shiro/mapper/SysPermissionMapper.java" />
+        <option value="$PROJECT_DIR$/dmm-server/src/main/java/com/shiro/service/impl/SysPermissionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dmm-core/src/main/java/com/shiro/service/SysPermissionService.java" />
+        <option value="$PROJECT_DIR$/dmm-core/src/main/java/com/shiro/service/SysRoleService.java" />
+        <option value="$PROJECT_DIR$/dmm-core/src/main/java/com/shiro/service/SysUserService.java" />
+        <option value="$PROJECT_DIR$/dmm-core/src/main/java/com/shiro/service/UserInfoService.java" />
+        <option value="$PROJECT_DIR$/dmm-server/src/main/resources/mapper/shiro/SysPermissionMapper.xml" />
+        <option value="$PROJECT_DIR$/dmm-server/src/main/resources/mapper/shiro/SysRoleMapper.xml" />
+        <option value="$PROJECT_DIR$/dmm-server/src/main/resources/mapper/shiro/SysUserMapper.xml" />
+        <option value="$PROJECT_DIR$/dmm-server/src/main/resources/mapper/shiro/UserInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/dmm-server/src/main/java/com/shiro/mapper/SysRoleMapper.java" />
+        <option value="$PROJECT_DIR$/dmm-server/src/main/java/com/shiro/mapper/SysUserMapper.java" />
+        <option value="$PROJECT_DIR$/dmm-server/src/main/java/com/shiro/mapper/UserInfoMapper.java" />
+        <option value="$PROJECT_DIR$/dmm-server/src/main/java/com/shiro/service/impl/SysRoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dmm-server/src/main/java/com/shiro/service/impl/SysUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dmm-server/src/main/java/com/shiro/service/impl/UserInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dmm-client/src/main/java/com/spring/service/TestService.java" />
+        <option value="$PROJECT_DIR$/dmm-shiro/src/main/resources/mapper/SysPermissionMapper.xml" />
+        <option value="$PROJECT_DIR$/dmm-shiro/src/main/resources/mapper/SysRoleMapper.xml" />
+        <option value="$PROJECT_DIR$/dmm-shiro/src/main/resources/mapper/SysUserMapper.xml" />
+        <option value="$PROJECT_DIR$/dmm-shiro/src/main/resources/mapper/UserInfoMapper.xml" />
         <option value="$PROJECT_DIR$/dmm-core/pom.xml" />
-        <option value="$PROJECT_DIR$/dmm-server/src/main/java/com/spring/server/ServerApplication.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/dmm-server/pom.xml" />
-        <option value="$PROJECT_DIR$/dmm-client/pom.xml" />
+        <option value="$PROJECT_DIR$/dmm-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/service/impl/SysRoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/service/impl/UserInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/service/impl/SysPermissionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dmm-shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/service/SysPermissionService.java" />
+        <option value="$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/service/impl/SysUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/mapper/SysUserMapper.java" />
+        <option value="$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/mapper/SysPermissionMapper.java" />
+        <option value="$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/mapper/SysRoleMapper.java" />
+        <option value="$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/mapper/UserInfoMapper.java" />
+        <option value="$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/config/MyShiroRealm.java" />
+        <option value="$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/controller/SysUserController.java" />
+        <option value="$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/controller/ShiroController.java" />
+        <option value="$PROJECT_DIR$/dmm-client/src/main/java/com/spring/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/dmm-client/src/main/java/com/spring/service/impl/TestSereviceImpl.java" />
+        <option value="$PROJECT_DIR$/dmm-client/src/main/java/com/ClientApplication.java" />
+        <option value="$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/config/ShiroDataSourceConfig.java" />
       </list>
     </option>
   </component>
@@ -225,20 +274,20 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="dmm-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="dmm-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="dmm-core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="dmm-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="dmm-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="dmm-shiro" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="dmm-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="dmm-shiro" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -246,10 +295,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="503" />
-    <option name="y" value="-8" />
-    <option name="width" value="960" />
-    <option name="height" value="1040" />
+    <option name="x" value="490" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -257,15 +305,38 @@
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="true" />
       <abbreviatePackageNames />
       <autoscrollToSource />
-      <autoscrollFromSource Scope="true" ProjectPane="true" />
+      <autoscrollFromSource Scope="true" PackagesPane="true" ProjectPane="true" />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dmm" type="58d84e3e:PackageViewProjectNode" />
+              <item name="dmm-shiro" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="dmm" type="58d84e3e:PackageViewProjectNode" />
+              <item name="dmm-shiro" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="dmm" type="58d84e3e:PackageViewProjectNode" />
+              <item name="dmm-shiro" type="616d4139:PackageViewModuleNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="shiro" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="Scope">
         <subPane subId="Production">
@@ -310,337 +381,240 @@
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="dmm" type="cbb8eebc:String" user="dmm" />
-              <item name="dmm" type="cbb8eebc:String" user="dmm" />
+              <item name="dmm-core" type="cbb8eebc:String" user="dmm-core" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="dmm-client" type="cbb8eebc:String" user="dmm-client" />
+              <item name="dmm-shiro" type="cbb8eebc:String" user="dmm-shiro" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="dmm-client" type="cbb8eebc:String" user="dmm-client" />
-              <item name="dmm-client" type="cbb8eebc:String" user="dmm-client" />
+              <item name="dmm-shiro" type="cbb8eebc:String" user="dmm-shiro" />
+              <item name="dmm-shiro" type="cbb8eebc:String" user="dmm-shiro" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="dmm-client" type="cbb8eebc:String" user="dmm-client" />
-              <item name="dmm-client" type="cbb8eebc:String" user="dmm-client" />
+              <item name="dmm-shiro" type="cbb8eebc:String" user="dmm-shiro" />
+              <item name="dmm-shiro" type="cbb8eebc:String" user="dmm-shiro" />
               <item name="src" type="cbb8eebc:String" user="src" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="dmm-client" type="cbb8eebc:String" user="dmm-client" />
-              <item name="dmm-client" type="cbb8eebc:String" user="dmm-client" />
+              <item name="dmm-shiro" type="cbb8eebc:String" user="dmm-shiro" />
+              <item name="dmm-shiro" type="cbb8eebc:String" user="dmm-shiro" />
               <item name="src" type="cbb8eebc:String" user="src" />
               <item name="main" type="cbb8eebc:String" user="main" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="dmm-client" type="cbb8eebc:String" user="dmm-client" />
-              <item name="dmm-client" type="cbb8eebc:String" user="dmm-client" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="main" type="cbb8eebc:String" user="main" />
-              <item name="java" type="cbb8eebc:String" user="java" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="dmm-client" type="cbb8eebc:String" user="dmm-client" />
-              <item name="dmm-client" type="cbb8eebc:String" user="dmm-client" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="main" type="cbb8eebc:String" user="main" />
-              <item name="java" type="cbb8eebc:String" user="java" />
-              <item name="com/spring/client" type="cbb8eebc:String" user="com/spring/client" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="dmm-client" type="cbb8eebc:String" user="dmm-client" />
-              <item name="dmm-client" type="cbb8eebc:String" user="dmm-client" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="main" type="cbb8eebc:String" user="main" />
-              <item name="java" type="cbb8eebc:String" user="java" />
-              <item name="com/spring/client" type="cbb8eebc:String" user="com/spring/client" />
-              <item name="controller" type="cbb8eebc:String" user="controller" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="dmm-core" type="cbb8eebc:String" user="dmm-core" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="dmm-core" type="cbb8eebc:String" user="dmm-core" />
-              <item name="dmm-core" type="cbb8eebc:String" user="dmm-core" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="dmm-core" type="cbb8eebc:String" user="dmm-core" />
-              <item name="dmm-core" type="cbb8eebc:String" user="dmm-core" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="dmm-core" type="cbb8eebc:String" user="dmm-core" />
-              <item name="dmm-core" type="cbb8eebc:String" user="dmm-core" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="main/java" type="cbb8eebc:String" user="main/java" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="dmm-core" type="cbb8eebc:String" user="dmm-core" />
-              <item name="dmm-core" type="cbb8eebc:String" user="dmm-core" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="main/java" type="cbb8eebc:String" user="main/java" />
-              <item name="com/core" type="cbb8eebc:String" user="com/core" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="dmm-core" type="cbb8eebc:String" user="dmm-core" />
-              <item name="dmm-core" type="cbb8eebc:String" user="dmm-core" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="main/java" type="cbb8eebc:String" user="main/java" />
-              <item name="com/core" type="cbb8eebc:String" user="com/core" />
-              <item name="po" type="cbb8eebc:String" user="po" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="dmm-core" type="cbb8eebc:String" user="dmm-core" />
-              <item name="dmm-core" type="cbb8eebc:String" user="dmm-core" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="main/java" type="cbb8eebc:String" user="main/java" />
-              <item name="com/core" type="cbb8eebc:String" user="com/core" />
-              <item name="service" type="cbb8eebc:String" user="service" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="dmm-server" type="cbb8eebc:String" user="dmm-server" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="dmm-server" type="cbb8eebc:String" user="dmm-server" />
-              <item name="dmm-server" type="cbb8eebc:String" user="dmm-server" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="dmm-server" type="cbb8eebc:String" user="dmm-server" />
-              <item name="dmm-server" type="cbb8eebc:String" user="dmm-server" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="dmm-server" type="cbb8eebc:String" user="dmm-server" />
-              <item name="dmm-server" type="cbb8eebc:String" user="dmm-server" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="main" type="cbb8eebc:String" user="main" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="dmm-server" type="cbb8eebc:String" user="dmm-server" />
-              <item name="dmm-server" type="cbb8eebc:String" user="dmm-server" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="main" type="cbb8eebc:String" user="main" />
-              <item name="java" type="cbb8eebc:String" user="java" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="dmm-server" type="cbb8eebc:String" user="dmm-server" />
-              <item name="dmm-server" type="cbb8eebc:String" user="dmm-server" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="main" type="cbb8eebc:String" user="main" />
-              <item name="java" type="cbb8eebc:String" user="java" />
-              <item name="com/spring/server" type="cbb8eebc:String" user="com/spring/server" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="dmm-server" type="cbb8eebc:String" user="dmm-server" />
-              <item name="dmm-server" type="cbb8eebc:String" user="dmm-server" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="main" type="cbb8eebc:String" user="main" />
-              <item name="java" type="cbb8eebc:String" user="java" />
-              <item name="com/spring/server" type="cbb8eebc:String" user="com/spring/server" />
-              <item name="dao/mapper" type="cbb8eebc:String" user="dao/mapper" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="dmm-server" type="cbb8eebc:String" user="dmm-server" />
-              <item name="dmm-server" type="cbb8eebc:String" user="dmm-server" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="main" type="cbb8eebc:String" user="main" />
-              <item name="java" type="cbb8eebc:String" user="java" />
-              <item name="com/spring/server" type="cbb8eebc:String" user="com/spring/server" />
-              <item name="service/impl" type="cbb8eebc:String" user="service/impl" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="dmm-server" type="cbb8eebc:String" user="dmm-server" />
-              <item name="dmm-server" type="cbb8eebc:String" user="dmm-server" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="main" type="cbb8eebc:String" user="main" />
-              <item name="resources" type="cbb8eebc:String" user="resources" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="dmm-server" type="cbb8eebc:String" user="dmm-server" />
-              <item name="dmm-server" type="cbb8eebc:String" user="dmm-server" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="main" type="cbb8eebc:String" user="main" />
-              <item name="resources" type="cbb8eebc:String" user="resources" />
-              <item name="mapper" type="cbb8eebc:String" user="mapper" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmm" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmm" type="462c0819:PsiDirectoryNode" />
-              <item name="dmm-client" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-extension:3.0.7.1" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmm" type="462c0819:PsiDirectoryNode" />
-              <item name="dmm-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-extension:3.0.7.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-plus-extension-3.0.7.1.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmm" type="462c0819:PsiDirectoryNode" />
-              <item name="dmm-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-extension:3.0.7.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-plus-extension-3.0.7.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="extension" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmm" type="462c0819:PsiDirectoryNode" />
-              <item name="dmm-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-extension:3.0.7.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-plus-extension-3.0.7.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="extension" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmm" type="462c0819:PsiDirectoryNode" />
-              <item name="dmm-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-extension:3.0.7.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-plus-extension-3.0.7.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="extension" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmm" type="462c0819:PsiDirectoryNode" />
-              <item name="dmm-core" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-extension:3.1.1" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmm" type="462c0819:PsiDirectoryNode" />
-              <item name="dmm-server" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-extension:3.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-plus-extension-3.1.1.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmm" type="462c0819:PsiDirectoryNode" />
-              <item name="dmm-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-extension:3.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-plus-extension-3.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="extension" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmm" type="462c0819:PsiDirectoryNode" />
-              <item name="dmm-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-extension:3.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-plus-extension-3.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="extension" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmm" type="462c0819:PsiDirectoryNode" />
-              <item name="dmm-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.baomidou:mybatis-plus-extension:3.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="mybatis-plus-extension-3.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="extension" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmm" type="462c0819:PsiDirectoryNode" />
-              <item name="dmm-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.2.1" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmm" type="462c0819:PsiDirectoryNode" />
-              <item name="dmm-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.2.1.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmm" type="462c0819:PsiDirectoryNode" />
-              <item name="dmm-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dmm" type="462c0819:PsiDirectoryNode" />
-              <item name="dmm-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="dmm" type="58d84e3e:PackageViewProjectNode" />
-              <item name="dmm-client" type="616d4139:PackageViewModuleNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="mgt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dmm" type="58d84e3e:PackageViewProjectNode" />
-              <item name="dmm-client" type="616d4139:PackageViewModuleNode" />
-              <item name="com.spring.client" type="1f31426a:PackageElementNode" />
+              <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="subject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dmm" type="58d84e3e:PackageViewProjectNode" />
-              <item name="dmm-client" type="616d4139:PackageViewModuleNode" />
-              <item name="com.spring.client" type="1f31426a:PackageElementNode" />
-              <item name="controller" type="1f31426a:PackageElementNode" />
+              <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.4.0" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
-              <item name="dmm" type="58d84e3e:PackageViewProjectNode" />
-              <item name="dmm-core" type="616d4139:PackageViewModuleNode" />
+              <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.4.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.4.0.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dmm" type="58d84e3e:PackageViewProjectNode" />
-              <item name="dmm-server" type="616d4139:PackageViewModuleNode" />
+              <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.4.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.4.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dmm" type="58d84e3e:PackageViewProjectNode" />
-              <item name="dmm-server" type="616d4139:PackageViewModuleNode" />
-              <item name="com.spring.server" type="1f31426a:PackageElementNode" />
+              <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.4.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.4.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="realm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="dmm" type="58d84e3e:PackageViewProjectNode" />
-              <item name="dmm-server" type="616d4139:PackageViewModuleNode" />
-              <item name="mapper" type="1f31426a:PackageElementNode" />
+              <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-web:1.4.0" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
-              <item name="dmm" type="58d84e3e:PackageViewProjectNode" />
-              <item name="dmm-server" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+              <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-web:1.4.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-web-1.4.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-web:1.4.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-web-1.4.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-web:1.4.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-web-1.4.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="session" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-web:1.4.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-web-1.4.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="session" type="462c0819:PsiDirectoryNode" />
+              <item name="mgt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-5.1.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-5.1.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-5.1.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-5.1.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -650,7 +624,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/wordspace_zgjs/CSDC-web" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -662,9 +636,23 @@
     <property name="RequestMappingsPanelOrder2" value="2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com" />
+      <recent name="" />
+      <recent name="com.client" />
+      <recent name="com.spring" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shiro.service.impl" />
+      <recent name="com.shiro.service" />
+      <recent name="com" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\workspace_dmm\dmm\dmm-server\src\main\resources" />
-      <recent name="E:\workspace_dmm\dmm\dmm-core\src\main\java\com\core\util" />
+      <recent name="E:\workspace_dmm\dmm\dmm-shiro\src\main\resources" />
+      <recent name="E:\workspace_dmm\dmm\dmm-shiro\src\main\java\com\spring" />
+      <recent name="E:\workspace_dmm\dmm\dmm-shiro\src\main\java\com\spring\config" />
+      <recent name="E:\workspace_dmm\dmm\dmm-core\src\main\java\com\shiro\po" />
+      <recent name="E:\workspace_dmm\dmm\dmm-server\src\main\java\com\shiro\service\impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -679,16 +667,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServerApplication">
+  <component name="RunManager" selected="Spring Boot.ClientApplication">
     <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring.client.ClientApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ClientApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <module name="dmm-client" />
+      <envs />
+    </configuration>
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="CodeGenerator" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="dmm-shiro" />
       <envs />
     </configuration>
     <configuration name="ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring.server.ServerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ServerApplication" />
       <module name="dmm-server" />
       <envs />
     </configuration>
@@ -820,10 +823,16 @@
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.ClientApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.ServerApplication" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CodeGenerator" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.CodeGenerator" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -840,46 +849,55 @@
       <option name="presentableId" value="Default" />
       <updated>1556185686548</updated>
       <workItem from="1556185692436" duration="3253000" />
-      <workItem from="1556242656046" duration="22519000" />
+      <workItem from="1556242656046" duration="22960000" />
+      <workItem from="1556416050167" duration="4669000" />
+      <workItem from="1556502274084" duration="1724000" />
+      <workItem from="1556588286550" duration="12985000" />
+      <workItem from="1557021607608" duration="8163000" />
+      <workItem from="1557106695453" duration="13159000" />
+      <workItem from="1557193300568" duration="14062000" />
+      <workItem from="1557279745116" duration="4793000" />
+      <workItem from="1557459877968" duration="14592000" />
+      <workItem from="1557712114757" duration="8521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25772000" />
+    <option name="totallyTimeSpent" value="108881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19722815" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19444445" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17590618" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20948827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19616205" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24222222" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13646056" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30222222" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21777777" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2249467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25333333" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62333333" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13646056" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -892,61 +910,55 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dmm-server/src/main/java/com/spring/server/service/impl/UserServiceImpl.java</url>
-          <line>23</line>
+          <url>file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/config/MyShiroRealm.java</url>
+          <line>50</line>
           <properties />
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dmm-server/src/main/java/com/spring/server/service/impl/UserServiceImpl.java</url>
-          <line>29</line>
+          <url>file://$PROJECT_DIR$/dmm-client/src/main/java/com/spring/controller/UserController.java</url>
+          <line>40</line>
           <properties />
-          <option name="timeStamp" value="10" />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/controller/ShiroController.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/config/MyShiroRealm.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="11" />
+      <option name="time" value="41" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dmm-server/src/main/java/com/spring/server/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/dmm-client/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/m2/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+        <state relative-caret-position="1241">
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-server/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/dmm-client/src/main/java/com/spring/service/TestService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        <state relative-caret-position="68">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-server/src/main/java/com/spring/server/ServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-client/pom.xml">
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/po/SysRole.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -954,52 +966,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-client/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/resources/mapper/DmmAccountMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-client/src/main/java/com/spring/client/ClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-server/src/main/java/com/spring/server/dao/mapper/DmmTransactionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/m2/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9843">
-          <caret line="579" column="0" lean-forward="true" selection-start-line="579" selection-start-column="0" selection-end-line="579" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-server/src/main/java/com/spring/server/service/UserService.java" />
-    <entry file="file://$PROJECT_DIR$/dmm-server/src/main/pom.xml">
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-client/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/dmm-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-server/src/main/java/com/shiro/service/impl/SysPermissionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="105" lean-forward="false" selection-start-line="12" selection-start-column="105" selection-end-line="12" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-853">
+          <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-core/src/main/java/com/shiro/po/UserInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
@@ -1007,347 +1014,383 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/maven/m2/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="385" column="0" lean-forward="false" selection-start-line="385" selection-start-column="0" selection-end-line="385" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/m2/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/m2/org/springframework/boot/spring-boot/2.1.3.RELEASE/spring-boot-2.1.3.RELEASE.jar!/org/springframework/boot/web/servlet/context/ServletWebServerApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/m2/org/springframework/boot/spring-boot/2.1.3.RELEASE/spring-boot-2.1.3.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="485" column="0" lean-forward="false" selection-start-line="485" selection-start-column="0" selection-end-line="485" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/m2/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven/m2/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="434" column="0" lean-forward="false" selection-start-line="434" selection-start-column="0" selection-end-line="434" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-core/src/main/java/com/core/util/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-core/src/main/java/com/core/util/JsonResp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-server/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-core/src/main/java/com/core/po/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/maven/m2/org/mybatis/spring/boot/mybatis-spring-boot-starter/2.0.0/mybatis-spring-boot-starter-2.0.0.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-client/src/main/java/com/spring/client/ClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/po/SysPermission.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/maven/m2/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/service/SysUserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/service/UserInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/m2/com/baomidou/mybatis-plus-extension/3.1.1/mybatis-plus-extension-3.1.1.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-server/src/main/java/com/spring/server/dao/mapper/DmmPayMapper.java">
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/po/SysUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-client/src/main/java/com/spring/client/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#765#774#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-core/src/main/java/com/core/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-core/src/main/java/com/core/po/DmmUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-server/src/main/java/com/spring/server/dao/mapper/DmmTransactionMapper.java">
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/mapper/SysRoleMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="68">
+          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-core/src/main/java/com/core/po/DmmTransaction.java">
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/mapper/UserInfoMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="68">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/mapper/SysUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/controller/SysUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-server/src/main/resources/mapper/SysPermissionMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-server/src/main/java/com/spring/server/dao/mapper/DmmUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-server/src/main/java/com/spring/server/dao/mapper/DmmAccountMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-server/src/main/resources/mapper/DmmAccountMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-          <folding>
-            <marker date="1556271086716" expanded="true" signature="739:846" ph="select from dmm_account" />
-            <marker date="1556271086716" expanded="true" signature="933:994" ph="delete from " />
-            <marker date="1556271086716" expanded="true" signature="1116:1308" ph="insert into dmm_account... " />
-            <marker date="1556271086716" expanded="true" signature="1401:1593" ph="update dmm_a... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-server/src/main/resources/mapper/DmmPayMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="53" lean-forward="false" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
-          <folding>
-            <marker date="1556266871921" expanded="true" signature="999:1102" ph="select from dmm_pay" />
-            <marker date="1556266871921" expanded="true" signature="1189:1246" ph="delete from " />
-            <marker date="1556266871921" expanded="true" signature="1364:1700" ph="insert into dmm_pay... " />
-            <marker date="1556266871921" expanded="true" signature="1789:2132" ph="update dmm_p... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-server/src/main/resources/mapper/DmmTransactionMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="58" lean-forward="false" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
-          <folding>
-            <marker date="1556266871792" expanded="true" signature="1028:1139" ph="select from dmm_transaction" />
-            <marker date="1556266871792" expanded="true" signature="1226:1291" ph="delete from " />
-            <marker date="1556266871792" expanded="true" signature="1417:1770" ph="insert into dmm_transaction... " />
-            <marker date="1556266871792" expanded="true" signature="1867:2227" ph="update dmm_t... " />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dmm-server/src/main/resources/mapper/DmmUserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="5" column="63" lean-forward="false" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1556266871994" expanded="true" signature="1044:1148" ph="select from dmm_user" />
-            <marker date="1556266871994" expanded="true" signature="1235:1293" ph="delete from " />
-            <marker date="1556266871994" expanded="true" signature="1413:1736" ph="insert into dmm_user... " />
-            <marker date="1556266871994" expanded="true" signature="1826:2193" ph="update dmm_u... " />
-            <marker date="1556266871994" expanded="true" signature="2302:2324" ph="select * fro... dmm_user" />
-            <marker date="1556266871994" expanded="true" signature="2408:2459" ph="update dmm_u... " />
+            <marker date="1557474446997" expanded="true" signature="1033:1137" ph="select from dmm_user" />
+            <marker date="1557474446997" expanded="true" signature="1224:1282" ph="delete from " />
+            <marker date="1557474446997" expanded="true" signature="1402:1725" ph="insert into dmm_user... " />
+            <marker date="1557474446997" expanded="true" signature="1815:2182" ph="update dmm_u... " />
+            <marker date="1557474446997" expanded="true" signature="2291:2313" ph="select * fro... dmm_user" />
+            <marker date="1557474446997" expanded="true" signature="2397:2448" ph="update dmm_u... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-server/src/main/java/com/spring/server/service/impl/UserServiceImpl.java">
+    <entry file="jar://E:/maven/m2/com/baomidou/mybatis-plus-extension/3.0.7.1/mybatis-plus-extension-3.0.7.1.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        <state relative-caret-position="136">
+          <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-core/pom.xml">
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/service/impl/SysRoleServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-server/src/main/java/com/spring/server/ServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#844#845#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="811">
-          <caret line="160" column="22" lean-forward="false" selection-start-line="160" selection-start-column="22" selection-end-line="160" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-client/src/test/java/com/spring/client/ClientApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-server/src/test/java/com/spring/server/ServerApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        <state relative-caret-position="204">
+          <caret line="12" column="94" lean-forward="false" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="94" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dmm-server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/service/impl/SysUserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="57" column="21" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="57" selection-end-column="21" />
+        <state relative-caret-position="82">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/service/impl/UserInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/service/SysRoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/service/SysPermissionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="46" column="21" lean-forward="true" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dmm-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="527">
+          <caret line="48" column="46" lean-forward="false" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-core/src/main/java/com/shiro/po/SysPermission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-core/src/main/java/com/shiro/po/SysRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-core/src/main/java/com/shiro/po/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-client/src/main/java/com/ClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding>
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-client/src/main/java/com/spring/service/impl/TestSereviceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-server/src/main/java/com/ServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/resources/mapper/SysPermissionMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <marker date="1557733521936" expanded="true" signature="425:457" ph="SELECT * fro... dmm_sys_permission" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/resources/mapper/SysRoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="95" lean-forward="false" selection-start-line="7" selection-start-column="95" selection-end-line="7" selection-end-column="95" />
+          <folding>
+            <marker date="1557733528402" expanded="true" signature="409:505" ph="SELECT * FRO... dmm_user_info" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/resources/mapper/SysUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/resources/mapper/UserInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/mapper/SysPermissionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/service/impl/SysPermissionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/config/ShiroDataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-client/src/main/java/com/spring/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="38" column="27" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/m2/org/apache/shiro/shiro-core/1.2.1/shiro-core-1.2.1.jar!/org/apache/shiro/subject/Subject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="59" column="9" lean-forward="false" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/config/ShiroConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1853">
+          <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/config/MyExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/config/MySessionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/po/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="21" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/controller/ShiroController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1977#1993#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmm-shiro/src/main/java/com/spring/config/MyShiroRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven/m2/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/realm/AuthenticatingRealm.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="195" column="0" lean-forward="false" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
           <folding />
         </state>
       </provider>

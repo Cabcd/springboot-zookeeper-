@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/dmm-client/dmm-client.iml" filepath="$PROJECT_DIR$/dmm-client/dmm-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/dmm-core/dmm-core.iml" filepath="$PROJECT_DIR$/dmm-core/dmm-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/dmm-server/dmm-server.iml" filepath="$PROJECT_DIR$/dmm-server/dmm-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dmm-shiro/dmm-shiro.iml" filepath="$PROJECT_DIR$/dmm-shiro/dmm-shiro.iml" />
     </modules>
   </component>
 </project>

@@ -10,6 +10,7 @@
         <module name="dmm-client" />
         <module name="dmm-core" />
         <module name="dmm-server" />
+        <module name="dmm-shiro" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -17,6 +18,7 @@
       <module name="dmm-client" target="1.8" />
       <module name="dmm-core" target="1.8" />
       <module name="dmm-server" target="1.8" />
+      <module name="dmm-shiro" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

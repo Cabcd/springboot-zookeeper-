@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
                              http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  
-   <groupId>spring-boot-zookeeper</groupId>
+
+  <groupId>spring-boot-zookeeper</groupId>
   <artifactId>dmm-server</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
-  
+
   <parent>
         <artifactId>dmm</artifactId>
         <groupId>spring-boot-zookeeper</groupId>
@@ -29,6 +29,7 @@
             <artifactId>mybatis-spring-boot-starter</artifactId>
             <version>2.0.0</version>
         </dependency>
+
 
         <dependency>
             <groupId>mysql</groupId>
@@ -65,7 +66,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                <!-- <configuration>
-                    <mainClass>com.spring.server.ServerApplication</mainClass>
+                    <mainClass>ServerApplication</mainClass>
                 </configuration>-->
                <!-- <executions>
                     <execution>
@@ -114,6 +115,31 @@
     <!--来源：CSDN-->
     <!--原文：https://blog.csdn.net/baidu_41885330/article/details/81875395-->
     <!--版权声明：本文为博主原创文章，转载请附上博文链接！-->
+
+
+<!--
+
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <spring.profiles.active>dev</spring.profiles.active>
+            </properties>
+        </profile>
+        <profile>
+            <id>prod</id>
+            <properties>
+                <spring.profiles.active>prod</spring.profiles.active>
+            </properties>
+        </profile>
+
+    </profiles>
+-->
+
+
 
 </project>
 

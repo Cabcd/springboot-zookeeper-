@@ -39,7 +39,6 @@ spring:
       validationQuery: SELECT 1
 
 
-
   #公共配置与profiles选择无关 mapperLocations指的路径是src/main/resources
 mybatis:
   typeAliasesPackage: com.core.po
@@ -48,3 +47,70 @@ mybatis:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #显示查询结果
 
 
+
+
+
+
+
+
+#
+##数据源
+#  datasource:
+#    druid:
+#      filters: mergeStat,wall,logback
+#      initial-size: 5
+#      max-active: 50
+#      min-idle: 5
+#      max-wait: 6000
+#      validation-query: SELECT 'x'
+#      test-on-borrow: true
+#      test-on-return: true
+#      test-while-idle: true
+#      time-between-eviction-runs-millis: 60000
+#      min-evictable-idle-time-millis: 300000
+#      remove-abandoned: true
+#      remove-abandoned-timeout: 1800
+#      log-abandoned: true
+#      web-stat-filter:
+#        enabled: true
+#        url-pattern: /*
+#        exclusions: '*.js,*.gif,*.jpg,*.bmp,*.png,*.css,*.ico,/druid/*'
+#      stat-view-servlet:
+#        enabled: true
+#        url-pattern: /druid/*
+#        reset-enable: false
+#        login-username: admin
+#        login-password: 123456
+#       #数据源1 业务数据
+#      datasource:
+#        url: jdbc:mysql://127.0.0.1:3306/dmm??serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
+#        username: root
+#        password: 123456
+#        driverClassName: com.mysql.jdbc.Driver
+#      #shiro数据源，用于权限相关
+#      shiro-data-source:
+#        #MyISAM和InnoDB是两种最常用的数据库引擎，默认的引擎是MyISAM，性能最好，但不支持事务处理，只有InnoDB支持事务
+#        url: jdbc:mysql://127.0.0.1:3306/dmm?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
+#        username: root
+#        password: 123456
+#        driverClassName: com.mysql.jdbc.Driver
+
+#globalConfig1:
+#    #主键类型  0:"数据库ID自增", 1:"用户输入ID",2:"全局唯一ID (数字类型唯一ID)", 3:"全局唯一ID UUID";
+#  idType: 0
+#    #字段策略 0:"忽略判断",1:"非 NULL 判断"),2:"非空判断"
+#  fieldStrategy: 2
+#    #驼峰下划线转换
+#  dbColumnUnderline: true
+#    #刷新mapper 调试神器
+#  refreshMapper: true
+#
+#global-config-shrio:
+#    #主键类型  0:"数据库ID自增", 1:"用户输入ID",2:"全局唯一ID (数字类型唯一ID)", 3:"全局唯一ID UUID";
+#  idType: 3
+#    #字段策略 0:"忽略判断",1:"非 NULL 判断"),2:"非空判断"
+#  fieldStrategy: 2
+#    #驼峰下划线转换
+#  dbColumnUnderline: true
+#    #刷新mapper 调试神器
+#  refreshMapper: true
